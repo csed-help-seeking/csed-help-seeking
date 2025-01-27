@@ -64,9 +64,7 @@ Key features of Duke's environment include:
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-# Stay Upated
-{% include section.html %}
-
+## Stay Upated
 <!-- Embed Google Form -->
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe0xDl8Xq5NMaHrS1vkOxi92fTujxt4WbKgo4vTT1Rk__UBxA/viewform?embedded=true" 
         width="640" 
