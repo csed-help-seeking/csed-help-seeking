@@ -62,8 +62,6 @@ Key features of Duke's environment include:
 - A diverse student population, with efforts to support first-generation and low-income scholars through programs and initiatives.
 - Strong emphasis on cultural competence and inclusive teaching practices, with faculty involved in initiatives like the Cultural Competence in Computing (3C) Fellows program to foster more inclusive computing environments.
 
-{% include section.html background="images/background.jpg" dark=true %}
-
 ## Stay Upated
 <!-- Embed Google Form -->
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe0xDl8Xq5NMaHrS1vkOxi92fTujxt4WbKgo4vTT1Rk__UBxA/viewform?embedded=true" 
@@ -75,3 +73,4 @@ Key features of Duke's environment include:
     Loading…
 </iframe>
 
+{% include section.html background="images/background.jpg" dark=true %}
