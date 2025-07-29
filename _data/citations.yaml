@@ -30,9 +30,75 @@
   link: https://dl.acm.org/doi/10.1145/3632620.3671099
   description: This paper investigates the help-seeking behaviors of individual computing
     students across various course contexts, identifying which aspects are consistent
-    for each student (individual-driven) and which vary depending on the course (context-driven),
-    aiming to enhance personalized educational support strategies.
+    for each student (individual-driven) and which vary depending on the course (context-driven).
   image: images/publication_images/doi.org_10.1145_3632620.3671099.png
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.1145/3724363.3729092
+  title: Prior What Experience? The Relationship Between Prior Experience and Student
+    Help-Seeking Beyond CS1
+  authors:
+  - Shao-Heng Ko
+  - Kristin Stephens-Martinez
+  publisher: Proceedings of the 30th ACM Conference on Innovation and Technology in
+    Computer Science Education V. 1
+  date: '2025-06-13'
+  link: https://dl.acm.org/doi/10.1145/3724363.3729092
+  description: "This study explores how different types of prior experience relate\
+    \ to computing students\u2019 help-seeking behaviors across multiple course contexts\
+    \ beyond CS1, highlighting how these relationships vary depending on the type\
+    \ of help resource and instructional context."
+  image: images/publication_images/doi.org_10.1145_3724363.3729092.png
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.1145/3716860
+  title: "Rethinking Computing Students\u2019 Help Resource Utilization through Sequentiality"
+  authors:
+  - Shao-Heng Ko
+  - Kristin Stephens-Martinez
+  publisher: ACM Transactions on Computing Education
+  date: '2025-03-31'
+  link: https://dl.acm.org/doi/10.1145/3716860
+  description: "This study investigates computing students\u2019 help-seeking behaviors\
+    \ across multiple course contexts by analyzing self-reported and behavioral data\
+    \ to understand the order in which they use help resources, how these reported\
+    \ sequences align with actual usage, and what sequential patterns emerge during\
+    \ assignment-level help-seeking."
+  image: images/publication_images/doi.org_10.1145_3716860.png
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.1145/3641554.3701851
+  title: Student Perceptions of the Help Resource Landscape
+  authors:
+  - Shao-Heng Ko
+  - Kristin Stephens-Martinez
+  - Matthew Zahn
+  - Yesenia Velasco
+  - Lina Battestilli
+  - Sarah Heckman
+  publisher: Proceedings of the 56th ACM Technical Symposium on Computer Science Education
+    V. 1
+  date: '2025-02-12'
+  link: https://dl.acm.org/doi/10.1145/3641554.3701851
+  description: Using survey data from multiple CS courses, this paper examines how
+    students value different dimensions of the help-seeking landscape, how these values
+    influence the order in which resources are used, and how student identities relate
+    to their perceptions of help resources.
+  image: images/publication_images/doi.org_10.1145_3641554.3701851.png
+  plugin: sources.py
+  file: sources.yaml
+- id: https://doi.org/10.1145/3641554.3701854
+  title: 'Satisfactory for All: Supporting Mastery Learning with Human-in-the-loop
+    Assessments in a Discrete Math Course'
+  authors:
+  - Shao-Heng Ko
+  - Alex Chao
+  - Violet Pang
+  publisher: Proceedings of the 56th ACM Technical Symposium on Computer Science Education
+    V. 1
+  date: '2025-02-12'
+  link: https://dl.acm.org/doi/10.1145/3641554.3701854
+  image: images/publication_images/doi.org_10.1145_3641554.3701854.png
   plugin: sources.py
   file: sources.yaml
 - id: https://doi.org/10.1145/3545945.3569777

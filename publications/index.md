@@ -9,22 +9,45 @@ nav:
 
 {% include section.html %}
 
-## Grant-Specific Publications
+{% comment %} Grab grant-specific publications and all citations {% endcomment %}
+{% assign grant_citations = site.data.grant_citations.grant %}
+{% assign all_citations = site.data.citations %}
+{% comment %} The variable below will be modified later. {% endcomment %}
+{% assign non_grant_citations = all_citations %}
 
-The following publications are directly linked to this grant's scope and objectives. They showcase the key findings and innovations that this project is contributing to the field of computer science education:
+## Publications Related To This Project’s Core Scope
 
-{% include citation.html lookup="https://doi.org/10.1145/3649165.3690130" style="rich" %}
+These publications align with the central aims of this project. They showcase the key findings and innovations that this project is contributing to the field of computer science education:
 
-{% include citation.html lookup="https://doi.org/10.1145/3632620.3671099" style="rich" %}
+{% for doi in grant_citations %}
+  {% include citation.html lookup=doi style="rich" %}
+{% endfor %}
 
 {% include section.html %}
 
-## All Publications by Research Team
+## Additional Publications
 
-These works represent the broader research contributions from our team that have laid the foundation for this project and continue to inform our approach to investigating student help-seeking behaviors:
+The following works reflect other contributions from our research team that, while outside the immediate scope of this project, provide valuable context and complementary insights.
+
+{% comment %} Trim grant DOIs {% endcomment %}
+{% assign trimmed_grant_dois = "" | split: "" %}
+{% for doi in grant_citations %}
+  {% assign trimmed = doi | strip %}
+  {% assign trimmed_grant_dois = trimmed_grant_dois | push: trimmed %}
+{% endfor %}
+
+{% comment %} Now filter all_citations into non_grant_citations {% endcomment %}
+{% assign non_grant_citations = "" | split: "" %}
+{% for citation in all_citations %}
+  {% unless trimmed_grant_dois contains citation.id %}
+    {% assign non_grant_citations = non_grant_citations | push: citation %}
+  {% endunless %}
+{% endfor %}
 
 {% include search-box.html %}
-
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+{% comment %} Show non-grant-specific publications {% endcomment %}
+{% for item in non_grant_citations %}
+  {% include citation.html lookup=item.id style="rich" %}
+{% endfor %}
