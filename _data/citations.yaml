@@ -187,15 +187,10 @@
 - id: https://doi.org/10.5281/zenodo.12729866
   title: Who Should I Help Next? Simulation of Office Hours Queue Scheduling Strategy
     in a CS2 Course
-  authors:
-  - Zhikai Gao
-  - Gabriel Silva Oliveira
-  - Damilola Babalola
-  - Collin Lynch
-  - Sarah Heckman
+  authors: []
   publisher: International Educational Data Mining Society
   date: '2024-07-12'
-  link: https://zenodo.org/records/12729866
+  link: https://zenodo.org/doi/10.5281/zenodo.12729866
   image: images/publication_images/doi.org_10.5281_zenodo.12729866.png
   plugin: sources.py
   file: sources.yaml
@@ -205,24 +200,17 @@
   - Lina Battestilli
   - Matthew Zahn
   - Sarah Heckman
-  publisher: ''
-  date: '2022-08-23'
-  link: https://peer.asee.org/academic-help-seeking-patterns-in-introductory-computer-science-courses
+  publisher: 2022 ASEE Annual Conference & Exposition Proceedings
+  date: '2022-08-01'
+  link: http://peer.asee.org/41526
   image: images/publication_images/dx.doi.org_10.18260_1-2--41526.png
   plugin: sources.py
   file: sources.yaml
 - id: https://eric.ed.gov/?id=EJ1373162
-  title: You Asked, Now What? Modeling Students' Help-Seeking and Coding Actions from
-    Request to Resolution
-  authors:
-  - Zhikai Gao
-  - Bradley Erickson
-  - Yiqiao Xu
-  - Collin Lynch
-  - Sarah Heckman
-  - Tiffany Barnes
-  publisher: Journal of Educational Data Mining
-  date: '2022-01-01'
+  title: ''
+  authors: []
+  publisher: ''
+  date: ''
   link: https://eric.ed.gov/?id=EJ1373162
   image: images/publication_images/eric.ed.gov_EJ1373162.png
   plugin: sources.py
